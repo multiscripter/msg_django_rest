@@ -1,0 +1,100 @@
+swagger: '2.0'
+info:
+  title: API
+  description: Test description
+  termsOfService: https://www.google.com/policies/terms/
+  contact:
+    email: contact@snippets.local
+  license:
+    name: BSD License
+  version: v1
+host: 127.0.0.1:8000
+schemes:
+  - http
+basePath: /
+consumes:
+  - application/json
+produces:
+  - application/json
+securityDefinitions:
+  Basic:
+    type: basic
+security:
+  - Basic: []
+paths:
+  /csv/:
+    get:
+      summary: Get messages in CSV format
+      operationId: csv_list
+      description: ''
+      parameters:
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          description: The number of items in exported CSV.
+      responses:
+        '200':
+          description: ''
+      tags:
+        - csv
+    parameters: []
+  /messages/:
+    get:
+      summary: Get message list
+      operationId: messages_list
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - messages
+    post:
+      summary: Creates a message
+      operationId: messages_create
+      description: 'request body example: {"title": "Foo","text": "Text about Foo"}'
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - messages
+    parameters: []
+  /messages/{id}/:
+    get:
+      summary: Get message by id
+      operationId: messages_read
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - messages
+    put:
+      summary: Update message by id
+      operationId: messages_update
+      description: 'request body example: {"Field name to update": "Value to update"}'
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - messages
+    delete:
+      summary: Delete message by id
+      operationId: messages_delete
+      description: ''
+      parameters: []
+      responses:
+        '204':
+          description: ''
+      tags:
+        - messages
+    parameters:
+      - name: id
+        in: path
+        required: true
+        type: UUID
+definitions: {}

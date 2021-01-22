@@ -1,10 +1,9 @@
 import csv
 
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpRequest, JsonResponse
 from django.utils.decorators import method_decorator
 from ratelimit.decorators import ratelimit
 from rest_framework import status
-from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from msg_django_rest.celery_tasks import set_sent_to_true
@@ -13,22 +12,22 @@ from msg_django_rest.core.serializers import serialize_message
 
 
 class MessageView(APIView):
-    def get(self, request, id=None):
+    def get(self, request: HttpRequest, id: str = None):
         if id:
             result_set = [Message.objects.get(id=id)]
         else:
             result_set = Message.objects.all()
-        data = [serialize_message(item) for item in result_set]
-        return Response(data=data)
+        data = [serialize_message(message) for message in result_set]
+        return JsonResponse(data=data, safe=False)
 
     @method_decorator(ratelimit(key='ip', rate='1/m', method='POST', block=True))
-    def post(self, request):
+    def post(self, request: HttpRequest):
         http_status = status.HTTP_201_CREATED
         message = Message(**request.data)
         message.save()
         set_sent_to_true.delay(message.id)
         data = serialize_message(message)
-        return Response(data=data, status=http_status)
+        return JsonResponse(data=data, status=http_status)
 
     def put(self, request, id):
         http_status = status.HTTP_200_OK
@@ -39,9 +38,9 @@ class MessageView(APIView):
                 'status': 'error',
                 'error': 'Message not updated'
             }
-        return Response(data=data, status=http_status)
+        return JsonResponse(data=data, status=http_status)
 
-    def delete(self, request, id):
+    def delete(self, request: HttpRequest, id: str):
         http_status = status.HTTP_200_OK
         data = {'status': 'ok'}
         try:
@@ -56,11 +55,11 @@ class MessageView(APIView):
                 'status': 'error',
                 'error': 'Error during deletion message'
             }
-        return Response(data=data, status=http_status)
+        return JsonResponse(data=data, status=http_status)
 
 
 class CSVExporter(APIView):
-    def get(self, request):
+    def get(self, request: HttpRequest):
         result_set = Message.objects.order_by('created').all()
 
         if 'limit' in request.GET:

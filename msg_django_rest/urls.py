@@ -13,14 +13,37 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.static import static
+from django.conf.urls import url
+from django.views.generic import TemplateView
+from rest_framework import permissions
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
 from django.contrib import admin
 from django.urls import path
 
+from msg_django_rest import settings
 from msg_django_rest.core.views import MessageView, CSVExporter
+
+schema_view = get_schema_view(
+   openapi.Info(
+      title="API",
+      default_version='v1',
+      description="Test description",
+      terms_of_service="https://www.google.com/policies/terms/",
+      contact=openapi.Contact(email="contact@snippets.local"),
+      license=openapi.License(name="BSD License"),
+   ),
+   public=True,
+   permission_classes=(permissions.AllowAny,),
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('messages/', MessageView.as_view()),
     path('messages/<uuid:id>/', MessageView.as_view()),
     path('csv/', CSVExporter.as_view()),
-]
+    url(r'docs/', TemplateView.as_view(
+        template_name='swagger-ui.html',
+    ), name='swagger-ui'),
+] + static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)

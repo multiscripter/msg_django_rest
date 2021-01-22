@@ -4,7 +4,7 @@ from msg_django_rest.core.models import Message
 
 def serialize_message(msg: Message) -> Dict[str, Any]:
     return {
-        'id': msg.id,
+        'id': msg.id.__str__(),
         'title': msg.title,
         'text': msg.text,
         'sent': msg.sent,

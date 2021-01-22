@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -39,9 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'drf_yasg'
 ]
 
 REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer'
+    ],
     'EXCEPTION_HANDLER': 'msg_django_rest.core.exception_handlers.custom_exception_handler'
 }
 
@@ -60,7 +65,7 @@ ROOT_URLCONF = 'msg_django_rest.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,14 +125,58 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 # Celery Configuration Options
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60
+
+LOG_DIR = os.path.join(BASE_DIR, 'log/')
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(asctime)s %(levelname)s %(module)s.%(filename)s %(message)s'
+        },
+        'rate-limit': {
+            'format': '%(asctime)s %(message)s'
+        }
+    },
+    'handlers': {
+        'file-common': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': LOG_DIR + 'common.log',
+            'maxBytes': 1024*1024,
+            'formatter': 'verbose'
+        },
+        'file-rate-limit': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': LOG_DIR + 'rate-limit.log',
+            'maxBytes': 1024*1024,
+            'formatter': 'rate-limit'
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file-common'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'file-rate-limit': {
+            'handlers': ['file-rate-limit'],
+            'level': 'ERROR',
+            'propagate': False,
+        }
+    },
+}

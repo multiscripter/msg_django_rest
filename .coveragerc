@@ -1,0 +1,6 @@
+[run]
+include =
+    ./msg_django_rest/core/*
+omit =
+    */migrations/*
+    */__init__.py
