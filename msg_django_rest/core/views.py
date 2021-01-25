@@ -9,57 +9,126 @@ from rest_framework.views import APIView
 from msg_django_rest.celery_tasks import set_sent_to_true
 from msg_django_rest.core.models import Message
 from msg_django_rest.core.serializers import serialize_message
+from msg_django_rest.core.validation import validate
 
 
 class MessageView(APIView):
-    def get(self, request: HttpRequest, id: str = None):
+    """View for handling requests to /message/"""
+
+    def get(self, request: HttpRequest, id: str = None) -> JsonResponse:
+        """
+        :param request: HttpRequest object.
+        :param id: message`s UUID.
+        :return: HTTP response in JSON format with status.
+        """
+
+        http_status = status.HTTP_200_OK
+        data = []
+        result_set = None
         if id:
-            result_set = [Message.objects.get(id=id)]
+            errors = validate({'id': id}, ['id'])
+            if errors:
+                http_status = status.HTTP_400_BAD_REQUEST
+                data = {
+                    'status': 'error',
+                    'error': errors
+                }
+            else:
+                result_set = [Message.objects.get(id=id)]
         else:
             result_set = Message.objects.all()
-        data = [serialize_message(message) for message in result_set]
-        return JsonResponse(data=data, safe=False)
+        if result_set:
+            data = [serialize_message(message) for message in result_set]
+        return JsonResponse(data=data, safe=False, status=http_status)
 
-    @method_decorator(ratelimit(key='ip', rate='1/m', method='POST', block=True))
-    def post(self, request: HttpRequest):
+    @method_decorator(ratelimit(key='ip', rate='10/m', method='POST', block=True))
+    def post(self, request: HttpRequest) -> JsonResponse:
+        """
+        :param request: HttpRequest object containing Message data.
+        :return: HTTP response in JSON format with newly created Message.
+        """
+
         http_status = status.HTTP_201_CREATED
-        message = Message(**request.data)
-        message.save()
-        set_sent_to_true.delay(message.id)
-        data = serialize_message(message)
-        return JsonResponse(data=data, status=http_status)
-
-    def put(self, request, id):
-        http_status = status.HTTP_200_OK
-        data = {'status': 'ok'}
-        if not Message.objects.filter(id=id).update(**request.data):
-            http_status = status.HTTP_500_INTERNAL_SERVER_ERROR
+        errors = validate(request.data, ['title'])
+        if errors:
+            http_status = status.HTTP_400_BAD_REQUEST
             data = {
                 'status': 'error',
-                'error': 'Message not updated'
+                'error': errors
             }
+        else:
+            message = Message(**request.data)
+            message.save()
+            set_sent_to_true.delay(message.id)
+            data = serialize_message(message)
         return JsonResponse(data=data, status=http_status)
 
-    def delete(self, request: HttpRequest, id: str):
+    def put(self, request: HttpRequest, id: str) -> JsonResponse:
+        """
+        :param request: HttpRequest object containing Message data.
+        :param id: message`s UUID.
+        :return: HTTP response in JSON format with status.
+        """
+
         http_status = status.HTTP_200_OK
-        data = {'status': 'ok'}
-        try:
-            result_set = Message.objects.filter(id=id).delete()
-            if not result_set[0]:
+        data = {'status': 'OK'}
+        errors = validate({'id': id}, ['id'])
+        if errors:
+            http_status = status.HTTP_400_BAD_REQUEST
+            data = {
+                'status': 'error',
+                'error': errors
+            }
+        else:
+            if not Message.objects.filter(id=id).update(**request.data):
+                http_status = status.HTTP_500_INTERNAL_SERVER_ERROR
                 data = {
-                    'status': 'No message deleted'
+                    'status': 'error',
+                    'error': 'Message not updated'
                 }
-        except BaseException as ex:
-            http_status = status.HTTP_500_INTERNAL_SERVER_ERROR
+        return JsonResponse(data=data, status=http_status)
+
+    def delete(self, request: HttpRequest, id: str) -> JsonResponse:
+        """
+        :param request: HttpRequest object.
+        :param id: message`s UUID.
+        :return: HTTP response in JSON format with status.
+        """
+
+        http_status = status.HTTP_200_OK
+        data = {'status': 'OK'}
+        errors = validate({'id': id}, ['id'])
+        if errors:
+            http_status = status.HTTP_400_BAD_REQUEST
             data = {
                 'status': 'error',
-                'error': 'Error during deletion message'
+                'error': errors
             }
+        else:
+            try:
+                result_set = Message.objects.filter(id=id).delete()
+                if not result_set[0]:
+                    data = {
+                        'status': 'No message deleted'
+                    }
+            except BaseException as ex:
+                http_status = status.HTTP_500_INTERNAL_SERVER_ERROR
+                data = {
+                    'status': 'error',
+                    'error': 'Error during deletion message'
+                }
         return JsonResponse(data=data, status=http_status)
 
 
 class CSVExporter(APIView):
-    def get(self, request: HttpRequest):
+    """View for handling requests to /csv/"""
+
+    def get(self, request: HttpRequest) -> HttpResponse:
+        """
+        :param request: HttpRequest object with possible GET-parameters.
+        :return: HTTP response in CSV format with exported data.
+        """
+
         result_set = Message.objects.order_by('created').all()
 
         if 'limit' in request.GET:
