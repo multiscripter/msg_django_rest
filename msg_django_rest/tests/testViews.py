@@ -27,6 +27,10 @@ class TestViews(TestCase):
             self.data[a] = Message(**self.data[a])
             self.data[a].save()
 
+    def tearDown(self):
+        for message in self.data:
+            message.delete()
+
     def test_get_messages_list(self):
         view = MessageView()
 

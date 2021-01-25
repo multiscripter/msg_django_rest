@@ -12,6 +12,13 @@ FILTERS = {
 
 
 def validate(data: Any, filters: list) -> dict:
+    """
+    Validates data according filters.
+    :param data: data to be validated.
+    :param filters: list with filters.
+    :return: empty dictionary if no errors. Otherwise dict with errors.
+    """
+
     errors = dict()
     for k in filters:
         if k in data:

@@ -83,14 +83,11 @@ WSGI_APPLICATION = 'msg_django_rest.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
+PROD_DB_NAME = BASE_DIR / 'db.sqlite3.prod'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3.prod',
-        'TEST': {
-            'NAME': BASE_DIR / 'db.sqlite3.test'
-        }
+        'NAME': PROD_DB_NAME
     }
 }
 

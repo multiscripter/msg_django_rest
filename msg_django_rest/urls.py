@@ -41,7 +41,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('messages/', MessageView.as_view()),
-    path('messages/<uuid:id>/', MessageView.as_view()),
+    path('messages/<str:id>/', MessageView.as_view()),
     path('csv/', CSVExporter.as_view()),
     url(r'docs/', TemplateView.as_view(
         template_name='swagger-ui.html',

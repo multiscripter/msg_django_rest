@@ -160,3 +160,675 @@
 2021-01-25 09:46:04,395 ERROR basehttp.basehttp.py "PUT /messages/2d7af5d5-4a90-4ebf-bbbc-088d71055154/ HTTP/1.1" 500 51
 2021-01-25 09:47:02,842 ERROR log.log.py Internal Server Error: /messages/8ad2e2be-3d53-43ea-aeb9-ef7eb45c60b6/
 2021-01-25 09:47:02,842 ERROR basehttp.basehttp.py "PUT /messages/8ad2e2be-3d53-43ea-aeb9-ef7eb45c60b6/ HTTP/1.1" 500 51
+2021-01-25 13:47:49,181 ERROR log.log.py Internal Server Error: /messages/5caaba8e-5eed-4ca8-af3e-95ac402ed436/
+2021-01-25 13:47:49,181 ERROR basehttp.basehttp.py "PUT /messages/5caaba8e-5eed-4ca8-af3e-95ac402ed436/ HTTP/1.1" 500 51
+2021-01-25 13:54:10,275 ERROR log.log.py Internal Server Error: /messages/06e3bc8a-658f-4eef-96ae-162d7c60abe9/
+2021-01-25 13:54:10,276 ERROR basehttp.basehttp.py "PUT /messages/06e3bc8a-658f-4eef-96ae-162d7c60abe9/ HTTP/1.1" 500 51
+2021-01-25 13:54:49,427 ERROR log.log.py Internal Server Error: /messages/f2f0628f-66f3-44f1-bb38-2b600341c711/
+2021-01-25 13:54:49,427 ERROR basehttp.basehttp.py "PUT /messages/f2f0628f-66f3-44f1-bb38-2b600341c711/ HTTP/1.1" 500 51
+2021-01-25 13:56:37,830 ERROR log.log.py Internal Server Error: /messages/f974c167-5f5d-4fc7-8d50-d241bedcb160/
+2021-01-25 13:56:37,830 ERROR basehttp.basehttp.py "PUT /messages/f974c167-5f5d-4fc7-8d50-d241bedcb160/ HTTP/1.1" 500 51
+2021-01-25 14:00:47,001 ERROR log.log.py Internal Server Error: /messages/509a3c2e-7a7d-4708-ac5f-3b6a26ed172d/
+2021-01-25 14:00:47,002 ERROR basehttp.basehttp.py "PUT /messages/509a3c2e-7a7d-4708-ac5f-3b6a26ed172d/ HTTP/1.1" 500 51
+2021-01-25 14:01:08,330 ERROR log.log.py Internal Server Error: /messages/4b2c09a5-4701-49e9-8f7d-603233485c3c/
+2021-01-25 14:01:08,330 ERROR basehttp.basehttp.py "PUT /messages/4b2c09a5-4701-49e9-8f7d-603233485c3c/ HTTP/1.1" 500 51
+2021-01-25 14:08:30,034 ERROR log.log.py Internal Server Error: /messages/a99acee8-5406-4bd6-b8dd-304da0a696ac/
+2021-01-25 14:08:30,034 ERROR basehttp.basehttp.py "PUT /messages/a99acee8-5406-4bd6-b8dd-304da0a696ac/ HTTP/1.1" 500 51
+2021-01-25 14:09:01,108 ERROR log.log.py Internal Server Error: /messages/a485ac6d-fc63-48db-b79e-7f0728240a23/
+2021-01-25 14:09:01,109 ERROR basehttp.basehttp.py "PUT /messages/a485ac6d-fc63-48db-b79e-7f0728240a23/ HTTP/1.1" 500 51
+2021-01-25 14:10:02,956 ERROR log.log.py Internal Server Error: /messages/1635971e-7197-4ff8-8c3b-a9690fc84be3/
+2021-01-25 14:10:02,956 ERROR basehttp.basehttp.py "PUT /messages/1635971e-7197-4ff8-8c3b-a9690fc84be3/ HTTP/1.1" 500 51
+2021-01-25 14:29:44,385 ERROR log.log.py Internal Server Error: /messages/d63ca87a-060f-4aa5-b0d6-251e20be06eb/
+2021-01-25 14:29:44,385 ERROR basehttp.basehttp.py "PUT /messages/d63ca87a-060f-4aa5-b0d6-251e20be06eb/ HTTP/1.1" 500 51
+2021-01-25 14:29:58,398 ERROR log.log.py Internal Server Error: /messages/9647edd1-d2cf-4374-9f47-0d7de3ea7651/
+2021-01-25 14:29:58,398 ERROR basehttp.basehttp.py "PUT /messages/9647edd1-d2cf-4374-9f47-0d7de3ea7651/ HTTP/1.1" 500 51
+2021-01-25 14:31:34,261 ERROR log.log.py Internal Server Error: /messages/1c481605-de96-4e0c-8d19-26e41992279d/
+2021-01-25 14:31:34,261 ERROR basehttp.basehttp.py "PUT /messages/1c481605-de96-4e0c-8d19-26e41992279d/ HTTP/1.1" 500 51
+2021-01-25 14:31:44,563 ERROR log.log.py Internal Server Error: /messages/4103c102-f9c6-48ba-9b5d-da2f40af3dc5/
+2021-01-25 14:31:44,563 ERROR basehttp.basehttp.py "PUT /messages/4103c102-f9c6-48ba-9b5d-da2f40af3dc5/ HTTP/1.1" 500 51
+2021-01-25 14:51:16,521 ERROR log.log.py Internal Server Error: /messages/c5a9379d-f172-4aac-b34e-e67babb5a0e8/
+2021-01-25 14:51:16,522 ERROR basehttp.basehttp.py "PUT /messages/c5a9379d-f172-4aac-b34e-e67babb5a0e8/ HTTP/1.1" 500 51
+2021-01-25 14:53:58,370 ERROR log.log.py Internal Server Error: /messages/daed8c91-926a-46c9-a716-ee879a403d2d/
+2021-01-25 14:53:58,371 ERROR basehttp.basehttp.py "PUT /messages/daed8c91-926a-46c9-a716-ee879a403d2d/ HTTP/1.1" 500 51
+2021-01-25 14:54:21,753 ERROR log.log.py Internal Server Error: /messages/54638ad0-6ce3-46a9-8e22-d6b3f1758018/
+2021-01-25 14:54:21,753 ERROR basehttp.basehttp.py "PUT /messages/54638ad0-6ce3-46a9-8e22-d6b3f1758018/ HTTP/1.1" 500 51
+2021-01-25 14:54:38,790 ERROR log.log.py Internal Server Error: /messages/de7caeee-939b-464d-8248-18a23c26586b/
+2021-01-25 14:54:38,791 ERROR basehttp.basehttp.py "PUT /messages/de7caeee-939b-464d-8248-18a23c26586b/ HTTP/1.1" 500 51
+2021-01-25 14:57:05,484 ERROR log.log.py Internal Server Error: /messages/b01fa2c5-7c67-4e25-9c0e-781d84356111/
+2021-01-25 14:57:05,484 ERROR basehttp.basehttp.py "PUT /messages/b01fa2c5-7c67-4e25-9c0e-781d84356111/ HTTP/1.1" 500 51
+2021-01-25 14:57:19,059 ERROR log.log.py Internal Server Error: /messages/73897855-14bd-4cec-a9e0-f7e51305c1f7/
+2021-01-25 14:57:19,059 ERROR basehttp.basehttp.py "PUT /messages/73897855-14bd-4cec-a9e0-f7e51305c1f7/ HTTP/1.1" 500 51
+2021-01-25 14:57:26,223 ERROR log.log.py Internal Server Error: /messages/7972df47-f4a2-48c7-a1d7-5e3d615cde3d/
+2021-01-25 14:57:26,224 ERROR basehttp.basehttp.py "PUT /messages/7972df47-f4a2-48c7-a1d7-5e3d615cde3d/ HTTP/1.1" 500 51
+2021-01-25 14:57:34,825 ERROR log.log.py Internal Server Error: /messages/75c596c1-33d4-4f22-b8a8-66d826228e13/
+2021-01-25 14:57:34,825 ERROR basehttp.basehttp.py "PUT /messages/75c596c1-33d4-4f22-b8a8-66d826228e13/ HTTP/1.1" 500 51
+2021-01-25 14:58:50,314 ERROR log.log.py Internal Server Error: /messages/8288c1e5-e9fd-4672-bdf4-0b672dc07be1/
+2021-01-25 14:58:50,315 ERROR basehttp.basehttp.py "PUT /messages/8288c1e5-e9fd-4672-bdf4-0b672dc07be1/ HTTP/1.1" 500 51
+2021-01-25 14:59:21,447 ERROR log.log.py Internal Server Error: /messages/95af4cd9-39da-4490-95ec-f11280f1b877/
+2021-01-25 14:59:21,448 ERROR basehttp.basehttp.py "PUT /messages/95af4cd9-39da-4490-95ec-f11280f1b877/ HTTP/1.1" 500 51
+2021-01-25 15:00:25,523 ERROR log.log.py Internal Server Error: /messages/e7d2f29d-0318-4db4-bd59-1216020a25ef/
+2021-01-25 15:00:25,524 ERROR basehttp.basehttp.py "PUT /messages/e7d2f29d-0318-4db4-bd59-1216020a25ef/ HTTP/1.1" 500 51
+2021-01-25 15:00:43,777 ERROR log.log.py Internal Server Error: /messages/42d28ec5-d403-40af-90ab-e834b0becff3/
+2021-01-25 15:00:43,777 ERROR basehttp.basehttp.py "PUT /messages/42d28ec5-d403-40af-90ab-e834b0becff3/ HTTP/1.1" 500 51
+2021-01-25 15:04:08,345 ERROR log.log.py Internal Server Error: /messages/1f328e81-1b26-44ac-ac79-758c4617f87b/
+2021-01-25 15:04:08,345 ERROR basehttp.basehttp.py "PUT /messages/1f328e81-1b26-44ac-ac79-758c4617f87b/ HTTP/1.1" 500 51
+2021-01-25 15:05:07,087 ERROR log.log.py Internal Server Error: /messages/08778cb5-7982-43a6-8324-82224de987b9/
+2021-01-25 15:05:07,088 ERROR basehttp.basehttp.py "PUT /messages/08778cb5-7982-43a6-8324-82224de987b9/ HTTP/1.1" 500 51
+2021-01-25 15:05:24,855 ERROR log.log.py Internal Server Error: /messages/dd64f02d-7e3b-4277-b0f2-ee158f2a8def/
+2021-01-25 15:05:24,856 ERROR basehttp.basehttp.py "PUT /messages/dd64f02d-7e3b-4277-b0f2-ee158f2a8def/ HTTP/1.1" 500 51
+2021-01-25 15:07:10,916 ERROR log.log.py Internal Server Error: /messages/30a56570-3b50-48aa-964c-a4d6f794ffb6/
+2021-01-25 15:07:10,917 ERROR basehttp.basehttp.py "PUT /messages/30a56570-3b50-48aa-964c-a4d6f794ffb6/ HTTP/1.1" 500 51
+2021-01-25 15:07:43,977 ERROR log.log.py Internal Server Error: /messages/dd2e2318-2b6d-4e7e-91c3-8cb30934bfcf/
+2021-01-25 15:07:43,977 ERROR basehttp.basehttp.py "PUT /messages/dd2e2318-2b6d-4e7e-91c3-8cb30934bfcf/ HTTP/1.1" 500 51
+2021-01-25 15:10:40,326 ERROR log.log.py Internal Server Error: /messages/4fc5a838-06e0-484d-b3bb-29bd8a216757/
+2021-01-25 15:10:40,326 ERROR basehttp.basehttp.py "PUT /messages/4fc5a838-06e0-484d-b3bb-29bd8a216757/ HTTP/1.1" 500 51
+2021-01-25 15:12:11,447 ERROR log.log.py Internal Server Error: /messages/55ea4a55-1ab3-45a4-a0b5-26edc34efd57/
+2021-01-25 15:12:11,447 ERROR basehttp.basehttp.py "PUT /messages/55ea4a55-1ab3-45a4-a0b5-26edc34efd57/ HTTP/1.1" 500 51
+2021-01-25 15:31:17,982 ERROR log.log.py Internal Server Error: /messages/f47d0404-9622-4e13-ac89-d459f5da27a2/
+2021-01-25 15:31:17,982 ERROR basehttp.basehttp.py "PUT /messages/f47d0404-9622-4e13-ac89-d459f5da27a2/ HTTP/1.1" 500 51
+2021-01-25 15:35:53,813 ERROR log.log.py Internal Server Error: /messages/acf1f0b0-51ab-436f-b5a5-6bf87b230395/
+2021-01-25 15:35:53,813 ERROR basehttp.basehttp.py "PUT /messages/acf1f0b0-51ab-436f-b5a5-6bf87b230395/ HTTP/1.1" 500 51
+2021-01-25 15:36:28,606 ERROR log.log.py Internal Server Error: /messages/84d6ac3f-2cac-44ec-a883-ce113ca501a3/
+2021-01-25 15:36:28,606 ERROR basehttp.basehttp.py "PUT /messages/84d6ac3f-2cac-44ec-a883-ce113ca501a3/ HTTP/1.1" 500 51
+2021-01-25 15:37:23,925 ERROR log.log.py Internal Server Error: /messages/4024bdab-da82-486a-86fd-1b325890d2e2/
+2021-01-25 15:37:23,926 ERROR basehttp.basehttp.py "PUT /messages/4024bdab-da82-486a-86fd-1b325890d2e2/ HTTP/1.1" 500 51
+2021-01-25 15:40:33,600 ERROR log.log.py Internal Server Error: /messages/f7a644a0-703a-4c78-b2d0-4fd475226297/
+2021-01-25 15:40:33,600 ERROR basehttp.basehttp.py "PUT /messages/f7a644a0-703a-4c78-b2d0-4fd475226297/ HTTP/1.1" 500 51
+2021-01-25 15:41:53,966 ERROR log.log.py Internal Server Error: /messages/622d0fa7-c0da-4560-bd74-3ca9ba56e455/
+2021-01-25 15:41:53,966 ERROR basehttp.basehttp.py "PUT /messages/622d0fa7-c0da-4560-bd74-3ca9ba56e455/ HTTP/1.1" 500 51
+2021-01-25 15:42:32,027 ERROR log.log.py Internal Server Error: /messages/62884907-b544-433b-a2dd-f202c0e3a4a2/
+2021-01-25 15:42:32,027 ERROR basehttp.basehttp.py "PUT /messages/62884907-b544-433b-a2dd-f202c0e3a4a2/ HTTP/1.1" 500 51
+2021-01-25 15:42:50,001 ERROR log.log.py Internal Server Error: /messages/f6d48c54-652c-4f58-9634-8ff84f9da53c/
+2021-01-25 15:42:50,001 ERROR basehttp.basehttp.py "PUT /messages/f6d48c54-652c-4f58-9634-8ff84f9da53c/ HTTP/1.1" 500 51
+2021-01-25 15:43:21,318 ERROR log.log.py Internal Server Error: /messages/3882154e-9593-41a6-8e53-c91f2b64fc69/
+2021-01-25 15:43:21,318 ERROR basehttp.basehttp.py "PUT /messages/3882154e-9593-41a6-8e53-c91f2b64fc69/ HTTP/1.1" 500 51
+2021-01-25 15:48:54,710 ERROR log.log.py Internal Server Error: /messages/bb922404-2255-4259-abb2-19ef1ea2686f/
+2021-01-25 15:48:54,711 ERROR basehttp.basehttp.py "PUT /messages/bb922404-2255-4259-abb2-19ef1ea2686f/ HTTP/1.1" 500 51
+2021-01-25 15:51:13,675 ERROR log.log.py Internal Server Error: /messages/b73eed14-5568-4733-aa53-ac2c5045dc9d/
+2021-01-25 15:51:13,675 ERROR basehttp.basehttp.py "PUT /messages/b73eed14-5568-4733-aa53-ac2c5045dc9d/ HTTP/1.1" 500 51
+2021-01-25 15:52:55,185 ERROR log.log.py Internal Server Error: /messages/faa80b26-7e36-4f91-8122-4c0c1f4df4ff/
+2021-01-25 15:52:55,186 ERROR basehttp.basehttp.py "PUT /messages/faa80b26-7e36-4f91-8122-4c0c1f4df4ff/ HTTP/1.1" 500 51
+2021-01-25 15:53:08,730 ERROR log.log.py Internal Server Error: /messages/ecde2507-e29c-49ad-8600-1c3681b5105c/
+2021-01-25 15:53:08,731 ERROR basehttp.basehttp.py "PUT /messages/ecde2507-e29c-49ad-8600-1c3681b5105c/ HTTP/1.1" 500 51
+2021-01-25 15:54:11,236 ERROR log.log.py Internal Server Error: /messages/f1c7dd76-c16e-49ef-a2af-338d36410e9e/
+2021-01-25 15:54:11,237 ERROR basehttp.basehttp.py "PUT /messages/f1c7dd76-c16e-49ef-a2af-338d36410e9e/ HTTP/1.1" 500 51
+2021-01-25 16:02:36,297 ERROR log.log.py Internal Server Error: /messages/066d5edf-12a9-4898-b96e-3638ef96e89d/
+2021-01-25 16:02:36,298 ERROR basehttp.basehttp.py "PUT /messages/066d5edf-12a9-4898-b96e-3638ef96e89d/ HTTP/1.1" 500 51
+2021-01-25 16:03:52,398 ERROR log.log.py Internal Server Error: /messages/39c36701-0505-4491-851d-23de40c11a7f/
+2021-01-25 16:03:52,399 ERROR basehttp.basehttp.py "PUT /messages/39c36701-0505-4491-851d-23de40c11a7f/ HTTP/1.1" 500 51
+2021-01-25 16:09:28,992 ERROR log.log.py Internal Server Error: /messages/277c2a2c-e38a-4994-8a29-2da10d341462/
+2021-01-25 16:09:28,992 ERROR basehttp.basehttp.py "PUT /messages/277c2a2c-e38a-4994-8a29-2da10d341462/ HTTP/1.1" 500 51
+2021-01-25 16:10:16,455 ERROR log.log.py Internal Server Error: /messages/84c07933-cc6b-4c93-ad99-b7e4877cfeca/
+2021-01-25 16:10:16,455 ERROR basehttp.basehttp.py "PUT /messages/84c07933-cc6b-4c93-ad99-b7e4877cfeca/ HTTP/1.1" 500 51
+2021-01-25 16:12:48,235 ERROR log.log.py Internal Server Error: /messages/ea75af2c-3a73-4b8b-95ad-4b86f69f7dd6/
+2021-01-25 16:12:48,236 ERROR basehttp.basehttp.py "PUT /messages/ea75af2c-3a73-4b8b-95ad-4b86f69f7dd6/ HTTP/1.1" 500 51
+2021-01-25 16:13:06,352 ERROR log.log.py Internal Server Error: /messages/373caa26-c4e9-4d8a-87a1-4094b52cb460/
+2021-01-25 16:13:06,353 ERROR basehttp.basehttp.py "PUT /messages/373caa26-c4e9-4d8a-87a1-4094b52cb460/ HTTP/1.1" 500 51
+2021-01-25 16:14:04,123 ERROR log.log.py Internal Server Error: /messages/0663cdaa-cdee-446c-aff8-b8b61688569d/
+2021-01-25 16:14:04,124 ERROR basehttp.basehttp.py "PUT /messages/0663cdaa-cdee-446c-aff8-b8b61688569d/ HTTP/1.1" 500 51
+2021-01-25 16:15:04,799 ERROR log.log.py Internal Server Error: /messages/966380bf-bf74-485f-b458-1122ff224cbe/
+2021-01-25 16:15:04,799 ERROR basehttp.basehttp.py "PUT /messages/966380bf-bf74-485f-b458-1122ff224cbe/ HTTP/1.1" 500 51
+2021-01-25 16:15:23,293 ERROR log.log.py Internal Server Error: /messages/073c9e3a-d9d4-4309-bc33-99859e593800/
+2021-01-25 16:15:23,293 ERROR basehttp.basehttp.py "PUT /messages/073c9e3a-d9d4-4309-bc33-99859e593800/ HTTP/1.1" 500 51
+2021-01-25 16:16:09,509 ERROR log.log.py Internal Server Error: /messages/fb7f6a3e-111c-4075-9edb-3d1cb0679b5d/
+2021-01-25 16:16:09,509 ERROR basehttp.basehttp.py "PUT /messages/fb7f6a3e-111c-4075-9edb-3d1cb0679b5d/ HTTP/1.1" 500 51
+2021-01-25 16:16:28,665 ERROR log.log.py Internal Server Error: /messages/1f2e4eda-896e-4843-a03b-e10bef7719cc/
+2021-01-25 16:16:28,667 ERROR basehttp.basehttp.py "PUT /messages/1f2e4eda-896e-4843-a03b-e10bef7719cc/ HTTP/1.1" 500 51
+2021-01-25 16:16:49,647 ERROR log.log.py Internal Server Error: /messages/9662f627-2cef-41a5-9251-10663cbf964f/
+2021-01-25 16:16:49,648 ERROR basehttp.basehttp.py "PUT /messages/9662f627-2cef-41a5-9251-10663cbf964f/ HTTP/1.1" 500 51
+2021-01-25 16:19:23,907 ERROR log.log.py Internal Server Error: /messages/fafe92d8-5755-4ab4-9bb4-4acf869bac11/
+2021-01-25 16:19:23,908 ERROR basehttp.basehttp.py "PUT /messages/fafe92d8-5755-4ab4-9bb4-4acf869bac11/ HTTP/1.1" 500 51
+2021-01-25 16:20:06,228 ERROR log.log.py Internal Server Error: /messages/c4b96d6e-37ab-4d12-9cfb-7da32c2bb73d/
+2021-01-25 16:20:06,228 ERROR basehttp.basehttp.py "PUT /messages/c4b96d6e-37ab-4d12-9cfb-7da32c2bb73d/ HTTP/1.1" 500 51
+2021-01-25 16:20:53,011 ERROR log.log.py Internal Server Error: /messages/fc15e2ee-35f3-4b85-8c36-80e88b0f6df0/
+2021-01-25 16:20:53,012 ERROR basehttp.basehttp.py "PUT /messages/fc15e2ee-35f3-4b85-8c36-80e88b0f6df0/ HTTP/1.1" 500 51
+2021-01-25 16:22:50,138 ERROR log.log.py Internal Server Error: /messages/fbe5b727-8b75-4d36-8c88-269cb47d92fd/
+2021-01-25 16:22:50,138 ERROR basehttp.basehttp.py "PUT /messages/fbe5b727-8b75-4d36-8c88-269cb47d92fd/ HTTP/1.1" 500 51
+2021-01-25 16:23:23,175 ERROR log.log.py Internal Server Error: /messages/ee5b20d6-d22c-4c84-8dac-dc3c91304864/
+2021-01-25 16:23:23,176 ERROR basehttp.basehttp.py "PUT /messages/ee5b20d6-d22c-4c84-8dac-dc3c91304864/ HTTP/1.1" 500 51
+2021-01-25 16:23:30,651 ERROR log.log.py Internal Server Error: /messages/0aa906ce-053e-4191-947e-25549148bea5/
+2021-01-25 16:23:30,652 ERROR basehttp.basehttp.py "PUT /messages/0aa906ce-053e-4191-947e-25549148bea5/ HTTP/1.1" 500 51
+2021-01-25 16:24:09,268 ERROR log.log.py Internal Server Error: /messages/4c1e84a9-f5c1-43d9-8d11-345df3b90b02/
+2021-01-25 16:24:09,268 ERROR basehttp.basehttp.py "PUT /messages/4c1e84a9-f5c1-43d9-8d11-345df3b90b02/ HTTP/1.1" 500 51
+2021-01-25 16:26:26,343 ERROR log.log.py Internal Server Error: /messages/a1f54e2d-2404-4826-b99a-f0d9b87a3aa2/
+2021-01-25 16:26:26,343 ERROR basehttp.basehttp.py "PUT /messages/a1f54e2d-2404-4826-b99a-f0d9b87a3aa2/ HTTP/1.1" 500 51
+2021-01-25 16:28:13,941 ERROR log.log.py Internal Server Error: /messages/0462dc15-1a81-403c-816f-dca7c7301f22/
+2021-01-25 16:28:13,941 ERROR basehttp.basehttp.py "PUT /messages/0462dc15-1a81-403c-816f-dca7c7301f22/ HTTP/1.1" 500 51
+2021-01-25 16:29:52,965 ERROR log.log.py Internal Server Error: /messages/dccfb081-313e-4bc5-a825-d8578e534e91/
+2021-01-25 16:29:52,965 ERROR basehttp.basehttp.py "PUT /messages/dccfb081-313e-4bc5-a825-d8578e534e91/ HTTP/1.1" 500 51
+2021-01-25 16:30:22,506 ERROR log.log.py Internal Server Error: /messages/f45d6122-e4e2-4fa8-8139-4d8127218dcd/
+2021-01-25 16:30:22,506 ERROR basehttp.basehttp.py "PUT /messages/f45d6122-e4e2-4fa8-8139-4d8127218dcd/ HTTP/1.1" 500 51
+2021-01-25 16:43:14,216 ERROR log.log.py Internal Server Error: /messages/acb33b21-149e-4c8d-8f33-c821008ac214/
+2021-01-25 16:43:14,217 ERROR basehttp.basehttp.py "PUT /messages/acb33b21-149e-4c8d-8f33-c821008ac214/ HTTP/1.1" 500 51
+2021-01-25 16:44:07,483 ERROR log.log.py Internal Server Error: /messages/b5b1b3eb-9157-4ce9-a5b5-3382dbfd4791/
+2021-01-25 16:44:07,483 ERROR basehttp.basehttp.py "PUT /messages/b5b1b3eb-9157-4ce9-a5b5-3382dbfd4791/ HTTP/1.1" 500 51
+2021-01-25 16:44:45,181 ERROR log.log.py Internal Server Error: /messages/d1e37e06-af34-42b7-ad78-615622e8e40c/
+2021-01-25 16:44:45,182 ERROR basehttp.basehttp.py "PUT /messages/d1e37e06-af34-42b7-ad78-615622e8e40c/ HTTP/1.1" 500 51
+2021-01-25 16:45:30,652 ERROR log.log.py Internal Server Error: /messages/5b88ad46-e230-4d72-9744-f965bd90b60b/
+2021-01-25 16:45:30,652 ERROR basehttp.basehttp.py "PUT /messages/5b88ad46-e230-4d72-9744-f965bd90b60b/ HTTP/1.1" 500 51
+2021-01-25 16:46:17,293 ERROR log.log.py Internal Server Error: /messages/a4c04994-852f-46bf-89aa-9c7cad06a86f/
+2021-01-25 16:46:17,294 ERROR basehttp.basehttp.py "PUT /messages/a4c04994-852f-46bf-89aa-9c7cad06a86f/ HTTP/1.1" 500 51
+2021-01-25 16:50:59,039 ERROR log.log.py Internal Server Error: /messages/d67714f8-f124-484b-9ac3-fd34f44bf6e2/
+2021-01-25 16:50:59,039 ERROR basehttp.basehttp.py "PUT /messages/d67714f8-f124-484b-9ac3-fd34f44bf6e2/ HTTP/1.1" 500 51
+2021-01-25 16:51:22,035 ERROR log.log.py Internal Server Error: /messages/e05b133f-2e8b-4e46-bd27-359927bd6892/
+2021-01-25 16:51:22,036 ERROR basehttp.basehttp.py "PUT /messages/e05b133f-2e8b-4e46-bd27-359927bd6892/ HTTP/1.1" 500 51
+2021-01-25 16:51:49,608 ERROR log.log.py Internal Server Error: /messages/2e84d3c3-8643-440c-9292-801a489ee401/
+2021-01-25 16:51:49,608 ERROR basehttp.basehttp.py "PUT /messages/2e84d3c3-8643-440c-9292-801a489ee401/ HTTP/1.1" 500 51
+2021-01-25 16:55:14,953 ERROR log.log.py Internal Server Error: /messages/c631118f-5328-41d8-bb5c-19c850f00bd0/
+2021-01-25 16:55:14,953 ERROR basehttp.basehttp.py "PUT /messages/c631118f-5328-41d8-bb5c-19c850f00bd0/ HTTP/1.1" 500 51
+2021-01-25 16:55:46,138 ERROR log.log.py Internal Server Error: /messages/1c477b03-da26-414b-9951-6b076fc1c45c/
+2021-01-25 16:55:46,139 ERROR basehttp.basehttp.py "PUT /messages/1c477b03-da26-414b-9951-6b076fc1c45c/ HTTP/1.1" 500 51
+2021-01-25 16:56:04,579 ERROR log.log.py Internal Server Error: /messages/1e541757-92b1-46b7-bc5c-e84df8575ec3/
+2021-01-25 16:56:04,579 ERROR basehttp.basehttp.py "PUT /messages/1e541757-92b1-46b7-bc5c-e84df8575ec3/ HTTP/1.1" 500 51
+2021-01-25 17:01:18,886 ERROR log.log.py Internal Server Error: /messages/1906e12b-4264-40d5-94de-2145ccb42776/
+2021-01-25 17:01:18,886 ERROR basehttp.basehttp.py "PUT /messages/1906e12b-4264-40d5-94de-2145ccb42776/ HTTP/1.1" 500 51
+2021-01-25 17:01:39,086 ERROR log.log.py Internal Server Error: /messages/95947c4d-f64c-46ab-b706-5f8c5e0d7308/
+2021-01-25 17:01:39,087 ERROR basehttp.basehttp.py "PUT /messages/95947c4d-f64c-46ab-b706-5f8c5e0d7308/ HTTP/1.1" 500 51
+2021-01-25 17:01:58,178 ERROR log.log.py Internal Server Error: /messages/e8c2781a-019f-46f6-aa97-b228168117a7/
+2021-01-25 17:01:58,179 ERROR basehttp.basehttp.py "PUT /messages/e8c2781a-019f-46f6-aa97-b228168117a7/ HTTP/1.1" 500 51
+2021-01-25 17:03:36,969 ERROR log.log.py Internal Server Error: /messages/3015f2c7-b782-4139-af4f-5a563c3428a1/
+2021-01-25 17:03:36,970 ERROR basehttp.basehttp.py "PUT /messages/3015f2c7-b782-4139-af4f-5a563c3428a1/ HTTP/1.1" 500 51
+2021-01-25 17:08:53,433 ERROR log.log.py Internal Server Error: /messages/ae8450f4-cd13-4ffe-ad7a-af2f96061228/
+2021-01-25 17:08:53,434 ERROR basehttp.basehttp.py "PUT /messages/ae8450f4-cd13-4ffe-ad7a-af2f96061228/ HTTP/1.1" 500 51
+2021-01-25 17:09:11,132 ERROR log.log.py Internal Server Error: /messages/94927c13-f7d3-4dbc-ad1f-7fa489e74927/
+2021-01-25 17:09:11,132 ERROR basehttp.basehttp.py "PUT /messages/94927c13-f7d3-4dbc-ad1f-7fa489e74927/ HTTP/1.1" 500 51
+2021-01-25 17:10:36,313 ERROR log.log.py Internal Server Error: /messages/628ec6fe-3a51-440d-8d45-243b3c28b5d4/
+2021-01-25 17:10:36,313 ERROR basehttp.basehttp.py "PUT /messages/628ec6fe-3a51-440d-8d45-243b3c28b5d4/ HTTP/1.1" 500 51
+2021-01-25 17:11:30,999 ERROR log.log.py Internal Server Error: /messages/a1320ec4-0a65-4141-804e-644547d74c07/
+2021-01-25 17:11:30,999 ERROR basehttp.basehttp.py "PUT /messages/a1320ec4-0a65-4141-804e-644547d74c07/ HTTP/1.1" 500 51
+2021-01-25 18:37:20,077 ERROR log.log.py Internal Server Error: /messages/b4206a0b-00f1-404c-b173-4ee0bbe31abe/
+2021-01-25 18:37:20,077 ERROR basehttp.basehttp.py "PUT /messages/b4206a0b-00f1-404c-b173-4ee0bbe31abe/ HTTP/1.1" 500 51
+2021-01-25 18:40:58,927 ERROR log.log.py Internal Server Error: /messages/a3ac84c0-c91d-4638-8633-f36c98cee370/
+2021-01-25 18:40:58,927 ERROR basehttp.basehttp.py "PUT /messages/a3ac84c0-c91d-4638-8633-f36c98cee370/ HTTP/1.1" 500 51
+2021-01-25 18:41:24,280 ERROR log.log.py Internal Server Error: /messages/fe22bb60-5ffa-49fa-a6ec-f488b3404e6e/
+2021-01-25 18:41:24,281 ERROR basehttp.basehttp.py "PUT /messages/fe22bb60-5ffa-49fa-a6ec-f488b3404e6e/ HTTP/1.1" 500 51
+2021-01-25 18:42:02,317 ERROR log.log.py Internal Server Error: /messages/7de8c124-f169-4d6a-8ffd-f95b66e35cbe/
+2021-01-25 18:42:02,317 ERROR basehttp.basehttp.py "PUT /messages/7de8c124-f169-4d6a-8ffd-f95b66e35cbe/ HTTP/1.1" 500 51
+2021-01-25 18:42:02,868 ERROR log.log.py Internal Server Error: /messages/4d5d1ee0-8ffd-4520-9d9f-01f23b39bace/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:42:02,869 ERROR basehttp.basehttp.py "GET /messages/4d5d1ee0-8ffd-4520-9d9f-01f23b39bace/ HTTP/1.1" 500 105462
+2021-01-25 18:42:29,020 ERROR log.log.py Internal Server Error: /messages/9b94a2d8-d503-4afd-8ada-8b7da92d94da/
+2021-01-25 18:42:29,021 ERROR basehttp.basehttp.py "PUT /messages/9b94a2d8-d503-4afd-8ada-8b7da92d94da/ HTTP/1.1" 500 51
+2021-01-25 18:42:29,545 ERROR log.log.py Internal Server Error: /messages/439ae56b-2b82-4511-acca-d7d467be17f5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:42:29,546 ERROR basehttp.basehttp.py "GET /messages/439ae56b-2b82-4511-acca-d7d467be17f5/ HTTP/1.1" 500 105462
+2021-01-25 18:42:46,583 ERROR log.log.py Internal Server Error: /messages/9f1eeadb-590f-41b8-97bd-33b75629e792/
+2021-01-25 18:42:46,583 ERROR basehttp.basehttp.py "PUT /messages/9f1eeadb-590f-41b8-97bd-33b75629e792/ HTTP/1.1" 500 51
+2021-01-25 18:42:47,075 ERROR log.log.py Internal Server Error: /messages/cf4d3aa7-77de-4dd9-a541-2a108447d6e5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:42:47,076 ERROR basehttp.basehttp.py "GET /messages/cf4d3aa7-77de-4dd9-a541-2a108447d6e5/ HTTP/1.1" 500 105462
+2021-01-25 18:45:05,748 ERROR log.log.py Internal Server Error: /messages/e7008a68-9d71-44bf-b663-dbe176884817/
+2021-01-25 18:45:05,748 ERROR basehttp.basehttp.py "PUT /messages/e7008a68-9d71-44bf-b663-dbe176884817/ HTTP/1.1" 500 51
+2021-01-25 18:45:06,237 ERROR log.log.py Internal Server Error: /messages/e9b6d61f-555b-4466-a469-82d789a27fb5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:45:06,238 ERROR basehttp.basehttp.py "GET /messages/e9b6d61f-555b-4466-a469-82d789a27fb5/ HTTP/1.1" 500 105462
+2021-01-25 18:52:03,557 ERROR log.log.py Internal Server Error: /messages/e4c6ec62-fafa-4d49-b92e-ab46670604d3/
+2021-01-25 18:52:03,557 ERROR basehttp.basehttp.py "PUT /messages/e4c6ec62-fafa-4d49-b92e-ab46670604d3/ HTTP/1.1" 500 51
+2021-01-25 18:52:04,060 ERROR log.log.py Internal Server Error: /messages/ed5f2abd-7987-49b9-b7ed-55886f8c0b46/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:52:04,060 ERROR basehttp.basehttp.py "GET /messages/ed5f2abd-7987-49b9-b7ed-55886f8c0b46/ HTTP/1.1" 500 105462
+2021-01-25 18:53:30,759 ERROR log.log.py Internal Server Error: /messages/1b5eff72-12b4-4ab5-bd0c-050f29c0ab1e/
+2021-01-25 18:53:30,759 ERROR basehttp.basehttp.py "PUT /messages/1b5eff72-12b4-4ab5-bd0c-050f29c0ab1e/ HTTP/1.1" 500 51
+2021-01-25 18:53:31,239 ERROR log.log.py Internal Server Error: /messages/cb2710d4-9d07-44a5-9211-35debabb4582/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:53:31,240 ERROR basehttp.basehttp.py "GET /messages/cb2710d4-9d07-44a5-9211-35debabb4582/ HTTP/1.1" 500 105462
+2021-01-25 18:54:58,710 ERROR log.log.py Internal Server Error: /messages/949231b0-0570-4243-b600-29c1347619bd/
+2021-01-25 18:54:58,711 ERROR basehttp.basehttp.py "PUT /messages/949231b0-0570-4243-b600-29c1347619bd/ HTTP/1.1" 500 51
+2021-01-25 18:54:59,225 ERROR log.log.py Internal Server Error: /messages/0c262865-825c-4c0c-be36-f7242bb12531/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 37, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 18:54:59,225 ERROR basehttp.basehttp.py "GET /messages/0c262865-825c-4c0c-be36-f7242bb12531/ HTTP/1.1" 500 105462
+2021-01-25 19:05:39,637 ERROR log.log.py Internal Server Error: /messages/b7363fb7-6c9a-480f-9f35-b8d05313d167/
+2021-01-25 19:05:39,637 ERROR basehttp.basehttp.py "PUT /messages/b7363fb7-6c9a-480f-9f35-b8d05313d167/ HTTP/1.1" 500 51
+2021-01-25 19:05:40,147 ERROR log.log.py Internal Server Error: /messages/2bf44836-bfee-48c1-9f58-b357fc07e6e9/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 38, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:05:40,148 ERROR basehttp.basehttp.py "GET /messages/2bf44836-bfee-48c1-9f58-b357fc07e6e9/ HTTP/1.1" 500 105465
+2021-01-25 19:08:37,935 ERROR log.log.py Internal Server Error: /messages/3f181740-fe67-4e8b-9b76-2fcc1429ea6c/
+2021-01-25 19:08:37,936 ERROR basehttp.basehttp.py "PUT /messages/3f181740-fe67-4e8b-9b76-2fcc1429ea6c/ HTTP/1.1" 500 51
+2021-01-25 19:08:38,420 ERROR log.log.py Internal Server Error: /messages/80a9e590-eb29-47d1-ab80-cbbe30027b53/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 39, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:08:38,421 ERROR basehttp.basehttp.py "GET /messages/80a9e590-eb29-47d1-ab80-cbbe30027b53/ HTTP/1.1" 500 105449
+2021-01-25 19:10:43,405 ERROR log.log.py Internal Server Error: /messages/82d172c1-619f-41da-baba-dd80b7511217/
+2021-01-25 19:10:43,407 ERROR basehttp.basehttp.py "PUT /messages/82d172c1-619f-41da-baba-dd80b7511217/ HTTP/1.1" 500 51
+2021-01-25 19:10:43,646 ERROR log.log.py Internal Server Error: /messages/da74b760-cd54-4e7e-b119-3cee29e4956a/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 39, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:10:43,661 ERROR basehttp.basehttp.py "GET /messages/da74b760-cd54-4e7e-b119-3cee29e4956a/ HTTP/1.1" 500 105449
+2021-01-25 19:12:07,959 ERROR log.log.py Internal Server Error: /messages/25b47dca-30d6-4bdc-a410-0e2b658c5ff7/
+2021-01-25 19:12:07,959 ERROR basehttp.basehttp.py "PUT /messages/25b47dca-30d6-4bdc-a410-0e2b658c5ff7/ HTTP/1.1" 500 51
+2021-01-25 19:12:08,155 ERROR log.log.py Internal Server Error: /messages/9e3fa8e3-2a5f-43c7-95b8-edc13dae7bb2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 39, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:12:08,156 ERROR basehttp.basehttp.py "GET /messages/9e3fa8e3-2a5f-43c7-95b8-edc13dae7bb2/ HTTP/1.1" 500 105449
+2021-01-25 19:16:14,274 ERROR log.log.py Internal Server Error: /messages/b14af49a-9460-4410-9397-defff68c03ae/
+2021-01-25 19:16:14,275 ERROR basehttp.basehttp.py "PUT /messages/b14af49a-9460-4410-9397-defff68c03ae/ HTTP/1.1" 500 51
+2021-01-25 19:16:14,816 ERROR log.log.py Internal Server Error: /messages/8ee4f618-9929-4fa4-a28b-f4e46003c846/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 39, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:16:14,817 ERROR basehttp.basehttp.py "GET /messages/8ee4f618-9929-4fa4-a28b-f4e46003c846/ HTTP/1.1" 500 105395
+2021-01-25 19:19:40,222 ERROR log.log.py Internal Server Error: /messages/9930cc4e-1d69-419d-b39e-1185bcfcb80f/
+2021-01-25 19:19:40,222 ERROR basehttp.basehttp.py "PUT /messages/9930cc4e-1d69-419d-b39e-1185bcfcb80f/ HTTP/1.1" 500 51
+2021-01-25 19:19:40,740 ERROR log.log.py Internal Server Error: /messages/9549d22f-9c5a-4860-9bfd-90752fa0b1bc/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 39, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:19:40,741 ERROR basehttp.basehttp.py "GET /messages/9549d22f-9c5a-4860-9bfd-90752fa0b1bc/ HTTP/1.1" 500 105395
+2021-01-25 19:21:51,995 ERROR log.log.py Internal Server Error: /messages/2ae4e183-c1b0-4e68-b722-65f53fe278d1/
+2021-01-25 19:21:51,996 ERROR basehttp.basehttp.py "PUT /messages/2ae4e183-c1b0-4e68-b722-65f53fe278d1/ HTTP/1.1" 500 51
+2021-01-25 19:21:52,494 ERROR log.log.py Internal Server Error: /messages/8e6809ff-bd39-4948-8351-c338bb87eec9/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 41, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:21:52,496 ERROR basehttp.basehttp.py "GET /messages/8e6809ff-bd39-4948-8351-c338bb87eec9/ HTTP/1.1" 500 105397
+2021-01-25 19:22:42,064 ERROR log.log.py Internal Server Error: /messages/b040654b-33bd-4620-aad8-1c7a9faef4b4/
+2021-01-25 19:22:42,065 ERROR basehttp.basehttp.py "PUT /messages/b040654b-33bd-4620-aad8-1c7a9faef4b4/ HTTP/1.1" 500 51
+2021-01-25 19:22:42,594 ERROR log.log.py Internal Server Error: /messages/afb9fab3-b591-4a3c-a450-987c314663e0/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/cyberbotx/python-tasks/msg_django_rest/msg_django_rest/core/views.py", line 42, in get
+    result_set = [Message.objects.get(id=id)]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+msg_django_rest.core.models.Message.DoesNotExist: Message matching query does not exist.
+2021-01-25 19:22:42,595 ERROR basehttp.basehttp.py "GET /messages/afb9fab3-b591-4a3c-a450-987c314663e0/ HTTP/1.1" 500 105378
+2021-01-25 19:23:42,004 ERROR log.log.py Internal Server Error: /messages/816100b5-9ba2-4983-9e67-f572864f62b0/
+2021-01-25 19:23:42,005 ERROR basehttp.basehttp.py "PUT /messages/816100b5-9ba2-4983-9e67-f572864f62b0/ HTTP/1.1" 500 51
+2021-01-25 19:23:42,491 ERROR log.log.py Internal Server Error: /messages/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/cyberbotx/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: delete() missing 1 required positional argument: 'id'
+2021-01-25 19:23:42,492 ERROR basehttp.basehttp.py "DELETE /messages/ HTTP/1.1" 500 90611
+2021-01-25 19:24:09,368 ERROR log.log.py Internal Server Error: /messages/ff4b1850-7567-474c-9096-2693fd3fb728/
+2021-01-25 19:24:09,369 ERROR basehttp.basehttp.py "PUT /messages/ff4b1850-7567-474c-9096-2693fd3fb728/ HTTP/1.1" 500 51
+2021-01-25 19:26:12,412 ERROR log.log.py Internal Server Error: /messages/82fb7955-6f97-460d-a8d7-367eabc25f50/
+2021-01-25 19:26:12,412 ERROR basehttp.basehttp.py "PUT /messages/82fb7955-6f97-460d-a8d7-367eabc25f50/ HTTP/1.1" 500 51
+2021-01-25 19:28:26,563 ERROR log.log.py Internal Server Error: /messages/ebc15fc4-4177-4fa7-b5dc-a5394bf3a9c1/
+2021-01-25 19:28:26,564 ERROR basehttp.basehttp.py "PUT /messages/ebc15fc4-4177-4fa7-b5dc-a5394bf3a9c1/ HTTP/1.1" 500 51
+2021-01-25 19:30:41,850 ERROR log.log.py Internal Server Error: /messages/b8db824b-f9cf-4fec-bde1-c62f98cd0afa/
+2021-01-25 19:30:41,851 ERROR basehttp.basehttp.py "PUT /messages/b8db824b-f9cf-4fec-bde1-c62f98cd0afa/ HTTP/1.1" 500 51
+2021-01-25 19:37:05,813 ERROR log.log.py Internal Server Error: /messages/ff84d773-718c-4096-b9ad-ac2bf3bbcf78/
+2021-01-25 19:37:05,813 ERROR basehttp.basehttp.py "PUT /messages/ff84d773-718c-4096-b9ad-ac2bf3bbcf78/ HTTP/1.1" 500 51
+2021-01-25 19:37:49,509 ERROR log.log.py Internal Server Error: /messages/f889f152-1ea2-4fc3-beb5-f99982915287/
+2021-01-25 19:37:49,510 ERROR basehttp.basehttp.py "PUT /messages/f889f152-1ea2-4fc3-beb5-f99982915287/ HTTP/1.1" 500 51
+2021-01-25 19:38:46,897 ERROR log.log.py Internal Server Error: /messages/7721db3b-8267-4d9f-971c-d5ddfe519eae/
+2021-01-25 19:38:46,897 ERROR basehttp.basehttp.py "PUT /messages/7721db3b-8267-4d9f-971c-d5ddfe519eae/ HTTP/1.1" 500 51
+2021-01-25 19:41:19,639 ERROR log.log.py Internal Server Error: /messages/7282a3bc-e214-40e7-bf04-1e83d74df9d9/
+2021-01-25 19:41:19,639 ERROR basehttp.basehttp.py "PUT /messages/7282a3bc-e214-40e7-bf04-1e83d74df9d9/ HTTP/1.1" 500 51
+2021-01-25 19:41:45,085 ERROR log.log.py Internal Server Error: /messages/9bbc2492-37e6-4f75-9d7a-613135bc5df4/
+2021-01-25 19:41:45,086 ERROR basehttp.basehttp.py "PUT /messages/9bbc2492-37e6-4f75-9d7a-613135bc5df4/ HTTP/1.1" 500 51
+2021-01-25 19:42:08,898 ERROR log.log.py Internal Server Error: /messages/99982c73-6633-4e70-a8d7-946577cb312e/
+2021-01-25 19:42:08,898 ERROR basehttp.basehttp.py "PUT /messages/99982c73-6633-4e70-a8d7-946577cb312e/ HTTP/1.1" 500 51
+2021-01-25 19:42:36,130 ERROR log.log.py Internal Server Error: /messages/a1e9e6a8-b4d2-4dca-834c-05de1308f1a9/
+2021-01-25 19:42:36,130 ERROR basehttp.basehttp.py "PUT /messages/a1e9e6a8-b4d2-4dca-834c-05de1308f1a9/ HTTP/1.1" 500 51
+2021-01-25 19:42:43,033 ERROR log.log.py Internal Server Error: /messages/4e38e15e-0a4a-496c-a0fb-d2968d3b08bf/
+2021-01-25 19:42:43,034 ERROR basehttp.basehttp.py "PUT /messages/4e38e15e-0a4a-496c-a0fb-d2968d3b08bf/ HTTP/1.1" 500 51
+2021-01-25 19:43:19,601 ERROR log.log.py Internal Server Error: /messages/532ee5b5-4deb-49eb-8058-f0c51450e534/
+2021-01-25 19:43:19,601 ERROR basehttp.basehttp.py "PUT /messages/532ee5b5-4deb-49eb-8058-f0c51450e534/ HTTP/1.1" 500 51
+2021-01-25 19:43:30,949 ERROR log.log.py Internal Server Error: /messages/038b7714-62b8-4512-91b3-f30109c91a64/
+2021-01-25 19:43:30,950 ERROR basehttp.basehttp.py "PUT /messages/038b7714-62b8-4512-91b3-f30109c91a64/ HTTP/1.1" 500 51
+2021-01-25 19:52:19,928 ERROR log.log.py Internal Server Error: /messages/e7c319b7-10e1-4361-8960-c643602f5cb1/
+2021-01-25 19:52:19,929 ERROR basehttp.basehttp.py "PUT /messages/e7c319b7-10e1-4361-8960-c643602f5cb1/ HTTP/1.1" 500 51
+2021-01-25 19:53:11,265 ERROR log.log.py Internal Server Error: /messages/b822cd83-25d9-43a5-84c6-20a5a6456a68/
+2021-01-25 19:53:11,266 ERROR basehttp.basehttp.py "PUT /messages/b822cd83-25d9-43a5-84c6-20a5a6456a68/ HTTP/1.1" 500 51
+2021-01-25 19:53:40,614 ERROR log.log.py Internal Server Error: /messages/de9e1f83-38fc-4b45-b23f-975f1c03aba2/
+2021-01-25 19:53:40,614 ERROR basehttp.basehttp.py "PUT /messages/de9e1f83-38fc-4b45-b23f-975f1c03aba2/ HTTP/1.1" 500 51
+2021-01-25 19:54:08,846 ERROR log.log.py Internal Server Error: /messages/ccc61571-7564-4a83-9e31-2e9f71b8dc58/
+2021-01-25 19:54:08,846 ERROR basehttp.basehttp.py "PUT /messages/ccc61571-7564-4a83-9e31-2e9f71b8dc58/ HTTP/1.1" 500 51
+2021-01-25 19:57:26,652 ERROR log.log.py Internal Server Error: /messages/bb5e0504-0e5b-4b31-9533-58e03270063c/
+2021-01-25 19:57:26,653 ERROR basehttp.basehttp.py "PUT /messages/bb5e0504-0e5b-4b31-9533-58e03270063c/ HTTP/1.1" 500 51
+2021-01-25 19:59:13,289 ERROR log.log.py Internal Server Error: /messages/066ec9db-0508-4422-96d1-c814d25eb8c8/
+2021-01-25 19:59:13,290 ERROR basehttp.basehttp.py "PUT /messages/066ec9db-0508-4422-96d1-c814d25eb8c8/ HTTP/1.1" 500 51
+2021-01-25 20:00:44,518 ERROR log.log.py Internal Server Error: /messages/5af0bf75-bee6-4b68-bca2-88c0b6d03926/
+2021-01-25 20:00:44,519 ERROR basehttp.basehttp.py "PUT /messages/5af0bf75-bee6-4b68-bca2-88c0b6d03926/ HTTP/1.1" 500 51
+2021-01-25 20:00:56,148 ERROR log.log.py Internal Server Error: /messages/415e5421-3521-4b8f-a0d9-88b515b2ec4a/
+2021-01-25 20:00:56,149 ERROR basehttp.basehttp.py "PUT /messages/415e5421-3521-4b8f-a0d9-88b515b2ec4a/ HTTP/1.1" 500 51
+2021-01-25 20:03:06,917 ERROR log.log.py Internal Server Error: /messages/ce6a6d51-d75c-4c88-a765-420cbd2972f1/
+2021-01-25 20:03:06,918 ERROR basehttp.basehttp.py "PUT /messages/ce6a6d51-d75c-4c88-a765-420cbd2972f1/ HTTP/1.1" 500 51
+2021-01-25 20:06:12,049 ERROR log.log.py Internal Server Error: /messages/abdb3b42-c5a3-4980-abba-1689733fba8f/
+2021-01-25 20:06:12,049 ERROR basehttp.basehttp.py "PUT /messages/abdb3b42-c5a3-4980-abba-1689733fba8f/ HTTP/1.1" 500 51
