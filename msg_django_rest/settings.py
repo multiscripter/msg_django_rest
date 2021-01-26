@@ -134,6 +134,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 # Celery Configuration Options
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60
+CELERY_BROKER_URL = 'amqp://guest:guest@rabbitmq:5672//'
 
 LOG_DIR = os.path.join(BASE_DIR, 'log/')
 

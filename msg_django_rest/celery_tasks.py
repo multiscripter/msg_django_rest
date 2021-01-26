@@ -4,7 +4,7 @@ import uuid
 import requests
 from celery import Celery
 
-app = Celery('tasks', broker='pyamqp://guest:guest@localhost:5672//')
+app = Celery('tasks', broker='pyamqp://guest:guest@rabbitmq:5672//')
 
 
 @app.task

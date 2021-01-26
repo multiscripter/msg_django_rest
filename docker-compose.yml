@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3
+    hostname: rabbitmq
+    command: rabbitmq-server start
+    ports:
+      - 5672:5672
+      - 15672:15672
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/usr/src/app/
+    ports:
+      - 8000:8000
+    links:
+      - rabbitmq
+    depends_on:
+      - rabbitmq
+
+  celery:
+    build: .
+    command: celery -A msg_django_rest worker -l WARNING
+    volumes:
+      - .:/usr/src/app/
+    links:
+      - rabbitmq
+    depends_on:
+      - web
+      - rabbitmq

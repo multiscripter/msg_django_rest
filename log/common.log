@@ -832,3 +832,7 @@ TypeError: delete() missing 1 required positional argument: 'id'
 2021-01-25 20:03:06,918 ERROR basehttp.basehttp.py "PUT /messages/ce6a6d51-d75c-4c88-a765-420cbd2972f1/ HTTP/1.1" 500 51
 2021-01-25 20:06:12,049 ERROR log.log.py Internal Server Error: /messages/abdb3b42-c5a3-4980-abba-1689733fba8f/
 2021-01-25 20:06:12,049 ERROR basehttp.basehttp.py "PUT /messages/abdb3b42-c5a3-4980-abba-1689733fba8f/ HTTP/1.1" 500 51
+2021-01-26 08:16:20,766 ERROR exception.exception.py Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-01-26 08:16:21,024 ERROR exception.exception.py Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-01-26 11:14:14,412 ERROR log.log.py Internal Server Error: /messages/63d55274-8f1e-4479-b834-581859428b55/
+2021-01-26 11:14:14,412 ERROR basehttp.basehttp.py "PUT /messages/63d55274-8f1e-4479-b834-581859428b55/ HTTP/1.1" 500 51
